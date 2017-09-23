@@ -1,1 +1,168 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My First Blog</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+  <ul>
+  <ul class="navigation">
+    <li class="active">Equals Operators</li>
+    <li class="active">Switch/if else</li>
+    <li class="active">java.util.Scanner</li>
+    <li class="active">Method Declaration</li>
+    <li class="active">Parameter vs. Argument</li>
+  </ul>
+
+  <div class="Topic1">
+    <h1>Difference Between Equals Operators In Java</h1>
+  </div>
+  <div class="DotEquals">
+    <h2>.Equals() "Dot Equals"
+  </div>
+  <div class="DotEqualsBody">
+    <p>Strings have a built-in method named .equals() also pronounced "dot equals".<br/>
+      The operator allows Strings to compare itself to another String, simplifying the <br/>
+      value <em>true</em> if they are equal and to the value <em>false</em> if they are not.
+    </p>
+  </div>
+
+  <div class="Equality">
+    <h2>==</h2>
+  </div>
+  <div class="EqualityBody">
+    <p>"==" or equality operator in Java is a binary operator provided by Java programming<br/>
+      lanugage and is used to compare primitives and objects. "==" compares two objects based<br/>
+      on memory reference.  Thus, this equality operator will return <em>true</em> only if two object<br/>
+      references are exactly the same, otherwise it will returnn a value <em>false</em>
+    </p>
+  </div>
+
+  <div class="Equals">
+    <h2>=</h2>
+  </div>
+
+  <div class="EqualsBody">
+    <p>The "equals" operator is purely used to assign a variable a value.  The equal operator<br/>
+      cannot be used when comparing strings.  For example, when writing your java code, you<br/>
+      won't be able to write a statement saying if (jason = doug).
+    </p>
+
+  <a
+  href="https://stackoverflow.com/questions/7520432/what-is-the-difference-between-vs-equals-in-java"target="_blank">Learn More
+  </a>
+  </div>
+
+  <div class="Topic1">
+    <h1>Difference Between Switch and if/else</h1>
+  </div>
+
+  <div class="Equals">
+    <h2>When To Use A Switch Statement</h2>
+  </div>
+  <img src="https://image.slidesharecdn.com/switchstatements-131008052700-phpapp02/95/switch-statements-in-java-4-638.jpg?cb=1381210054" />
+
+   <div class="EqualsBody">
+     <p>Similar to if statements, switch statements also compare variables with a value in Java.<br/>
+       A switch statement starts with the keyword <strong>switch</strong> and then some parenthese.<br/>
+      Within the parenthese is a single variable, and then followed up by a open curley brace.
+     </p>
+     <p>Inside the body of the switch statement are several case statements that begin with the keyword<br/>
+       <em>case</em> and then a value that the variable up in the parentheses might equal. After all of<br/>
+       the code is the keyword <em>break</em>. The break marks the end of the case.
+    </p>
+    <p>When a <em>switch</em> statement runs, the computer figures out the current value of the variable<br/>
+      inside the parentheses. Then it looks through the list of cases, one at a time, looking for a match.<br/>
+      When it finds a match it moves from the left side where the cases are to the right side and starts<br/>
+      running code until it is stopped by a break.
+    </p>
+    <p>I none of the cases match and there is a default case, which is optional, then the code in the default<br/>
+      case will be run instead.
+    </p>
+  </div>
+
+  <div class="Equals">
+    <h2>What Is An if/else Statement</h2>
+  </div>
+
+  <div class="EqualsBody">
+    <p>An if statement starts with the keyword <em>if</em>, followed by a condition in parenthese.<br/>
+      The condition must be a boolean expression that evaluates to either true or false. Underneath that<br/>
+      starts a block of code surrounded by curly braces, and everything inside the curley braces is called</br>
+      the body of the if statement.
+    </p>
+    <p>When the condition of the if statement is true, all the code in the body of the if statement is executed.<br/>
+     When the condition of the if statement is false, all the code in the body is skipped. The amount of code is<br/>
+     unlimited within the body of the if statement.
+    </p>
+    <h3>So...what's the difference?</h3>
+    <p>So basically, a switch statement works much faster than the equivalent if/else ladder. Switch statements<br/>
+      are easier to read than if/else statements, and are typically more manageable.
+    </p>
+    <p>You will want to use a switch statement over a if/else statement when there are large number of compares<br/>
+      for a condition in your program, or when there are more complex comparisons. However, when there are just<br/>
+      a few compares, the if/else statements are faster and easier to write.
+    </p>
+    <img src="http://www.homeandlearn.co.uk/java/images/con_logic/if_elseIF_statement.gif" />
+
+    <div class="Topic1">
+      <h1>import java.util.Scanner</h1>
+    </div>
+    <div class="Equals">
+      <h2>What Is The util.java.Scanner And Where Does The Functionality Come From?</h2>
+    </div>
+    <div class="EqualsBody">
+      <p>Let me break the statement down first. Import Scanner class which is in the util folder located inside the java folder.<br/>
+        Util stands for utility and contains utility classes. lastly, Scanner is a predefined class for taking inputs from users<br/>
+        So what is the statement? java.util.Scanner is a library in Java that contains functionality that allows us to get information into<br/>
+        the program from the keyboard or other places like files on the computer or from the Internet.
+    </div>
+
+    <div class="Topic1">
+      <h1>Method Declaration</h1>
+    </div>
+
+    <div class="Equals">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjU-s4040Oa-xb9DDKYSLa8iKl7JLHv9K4TuiXATtBEggu9FAZ" />
+      <h2>What Is Void In Method Declaration</h2>
+    </div>
+
+    <div class="EqualsBody">
+      <p>void is a Java keyword used at method declaration and definition to specify that the method does not return any type, the method<br/>
+        returns void.
+      </p>
+
+    <div class="Equals">
+      <h2>The Main Difference Between 'Void Method' and 'Return Type Method'in java</h2>
+    </div>
+
+    <div class="EqualsBody">
+      <p>The "void" return type means that this method doesn't have a return type. The return type method on the other hand is a Java keyword<br/>
+          that tells the compiler what willbe returned when a function is finished.
+      </p>
+
+    <div class="Topic1">
+      <h1>Arguments vs. Parameters</h1>
+    </div>
+
+    <div class="Equality">
+      <img src="data:image/jpeg;base64,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" />
+      <h2>How Are They Different?</h2>
+    </div>
+
+    <div class="EqualityBody">
+      <p>According to MIT PhD student, Rick Viscomi, "Arguments are values passed into a function call, and parameters are variables defined in<br/>
+        the function to receive them."  Basically, parameters are the placeholders for arguments. There is much debate over this topic online.<br/>
+        However, after doing diligent research on this topic, I found this website to break it down the best because there are a lot of wordy<br/>
+        answers out there that just left me even more confused.<br/>
+        <a href="https://www.codecademy.com/en/forum_questions/55b67883937676f3be000057">Arguments Vs. Parameters (Simplest Explanation)</a>
+
+      </p>
+
+    </div>
+
+
+
+</body>
+</html>
